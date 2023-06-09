@@ -1,0 +1,38 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    padding: auto;
+    margin: auto;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+  
+    
+}
+
+
+  
+
+.container{
+    border: 1px solid black;
+    margin-top:5rem;
+    width: 40rem;
+}
+
+.food{
+    border-radius: 60%;
+    margin-bottom: 2rem;
+    margin-left: 4rem;
+}
+
+
+
+.item{
+    display: flex;
+    margin-left: 4rem;
+    font-size: 18px;
+    margin-top: 1rem;
+    text-align: justify;
+   
+}
+

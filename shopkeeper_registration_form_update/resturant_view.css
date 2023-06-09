@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e3edef;
+}
+
+.heading-box {
+    margin-top: 30px;
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 7px 7px 7px rgba(0, 0, 0, 0.2);
+    line-height: 20px;
+}
+
+.heading-1 {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: #000000;
+
+}
+
+.offers {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.one-offer {
+    border: 2px solid #2b6777;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px;
+    padding: 4px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.offer-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.coupon-code {
+    font-size: 16px;
+    color: #666666;
+    margin-top: 5px;
+}
+
+.res-name,
+.type,
+.address,
+.dis {
+    padding: 5px;
+    margin: 5px;
+}
+
+.type,
+.dis {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.address {
+    color: grey;
+    font-size: 18px;
+}
+
+.rating {
+    height: 100px;
+    border: 0.5px solid rgb(194, 190, 190);
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+
+.rate {
+    height: 40%;
+    background-color: #2b6777;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.star-1 {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 18px;
+    text-align: center;
+
+}
+
+.number,
+.review {
+    font-size: 18px;
+    margin-left: 8px;
+    font-weight: 600;
+}
+
+.number {
+    margin-top: 10px;
+}
+
+.tag-1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 18rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.veg,
+.nonveg {
+    background-color: white;
+    border: 0.2px solid rgb(194, 189, 189);
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 8px;
+    font-weight: 600;
+}
+
+.nonveg {
+    margin-left: 10px;
+}
+
+.text {
+    display: inline-block;
+    padding: 5px;
+}
+
+.img-tag {
+    margin-top: 3px;
+}
+
+.sub-main-two {
+    display: block;
+    background-color: white;
+    width: 90%;
+    margin: auto;
+    border-radius: 15px;
+
+}
+
+.dishes {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(216, 213, 213);
+    line-height: 23px;
+}
+
+.dish {
+    margin-left: 10px;
+    padding: 5px;
+}
+
+.dish-name {
+    font-weight: bolder;
+    padding: 5px;
+    margin-left: 8px;
+
+}
+
+.dish-price {
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.rupee-symbol {
+    display: inline-block;
+    font-size: 1.2rem;
+    margin-left: 10px;
+    font-weight: bolder;
+    padding: 0;
+
+}
+
+.dish-desc {
+    margin-left: 10px;
+    color: #696969;
+}
+
+.dish-image {
+    width: 100px;
+    margin-right: 40px;
+    padding: 5px;
+
+}
+
+.dish-image img {
+    border-radius: 10px;
+
+}

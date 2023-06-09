@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    font-family: "Raleway", sans-serif;
+    background: #d4d4d4;
+}
+
+h1 {
+    text-align: center;
+}
+
+.form-container {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+
+input[type=file] {
+    display: block;
+    margin-bottom: 20px;
+
+}
+
+.upload-btn {
+    display: inline-block;
+    background-color: #2b6777;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 100px;
+    margin-left: 35%;
+
+}
+
+.next-btn {
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    height: 50px;
+    padding: 12px 20px;
+    background-color: #2b6777;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 30px;
+}
+
+.upload-btn:hover {
+    background-color: #3071a9;
+}
+
+.container {
+    margin: 30px;
+}
+
+.row {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.image {
+
+    margin: 20px;
+
+    border-radius: 10px;
+    max-width: 25%;
+}
+
+.image img {
+    opacity: 0.8;
+    transition: 0.6s;
+    transition-property: opacity;
+    width: 100%;
+}
+
+.image:hover img {
+    opacity: 1;
+}
+
+@media (max-width: 1080px) {
+    .image {
+        max-width: 50%;
+    }
+
+    .main-container {
+        flex-direction: column;
+    }
+
+    .upload-btn {
+        margin-top: 10px;
+    }
+
+
+}

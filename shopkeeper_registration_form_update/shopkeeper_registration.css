@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.inside_main {
+    padding: 30px;
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 10px 10px 8px 10px #a7a5a5;
+    border-radius: 6px;
+}
+
+.sub {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 27px;
+    flex-direction: column;
+}
+
+#password {
+    margin-top: 10px;
+}
+
+a {
+
+    color: #2b6777;
+}
+
+.sign {
+    margin-top: 10px;
+}

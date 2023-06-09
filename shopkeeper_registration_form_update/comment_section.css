@@ -1,0 +1,55 @@
+.container-1 {
+    max-width: 1500px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.ratings {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.star {
+    font-size: 24px;
+    color: #ffd700;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.star:hover,
+.star.active {
+    color: #ffbf00;
+}
+
+.comment {
+    margin-bottom: 20px;
+}
+
+.comment textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.submit-btn {
+    display: block;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 20px;
+    }
+}
